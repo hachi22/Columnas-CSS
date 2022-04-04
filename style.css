@@ -1,0 +1,18 @@
+html{
+    background-color: lightgreen;
+}
+
+.text{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: solid 2px red;
+}
+
+.title:hover{
+    color: blue;
+}
+
+.text::selection{
+    color:rgb(255, 255, 255);
+    background-color: rgb(37, 208, 214);
+}
